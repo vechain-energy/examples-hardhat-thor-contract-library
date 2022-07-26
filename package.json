@@ -1,0 +1,17 @@
+{
+  "name": "contract-libs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "@vechain.energy/hardhat-thor": "^0.3.1",
+    "hardhat": "^2.10.1",
+    "hardhat-jest-plugin": "^0.0.6",
+    "nodemon": "^2.0.19"
+  },
+  "scripts": {
+    "test": "hardhat test:jest",
+    "test:watch": "nodemon -e sol --exec 'hardhat test:jest --watch'"
+  }
+}
